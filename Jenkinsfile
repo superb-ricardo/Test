@@ -16,6 +16,12 @@ pipeline {
                         sh 'sleep 5'
                     }
                 }
+                stage('Mac OS') {
+                    steps {
+                        echo 'Building on Mac'
+                        sh 'sleep 5'
+                    }
+                }
             }
         }
     }
